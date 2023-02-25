@@ -10,7 +10,7 @@ app.use(cors())
 app.use('/', routes)
 
 app.get('/', (req, res) => {
-  res.send('Olá Mundo 2!!')
+  res.send('Olá Mundo 3!!')
 })
 
 app.listen(port, () => {
